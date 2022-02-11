@@ -1,0 +1,101 @@
+/**
+ * /* Header
+ *
+ * @format
+ */
+
+.header .header-title {
+	font-size: 48px;
+	line-height: 1.5;
+}
+
+.header .btn-get {
+	background-color: #613c33;
+	color: #fff;
+	padding: 0.75rem 3rem;
+}
+
+.header .btn-get:hover {
+	background-color: #360917;
+	color: #fff;
+	padding: 0.75rem 3rem;
+}
+
+.header .card {
+	border-radius: 1rem;
+	box-shadow: -8px 8px 58px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header .left-card {
+	width: 207px;
+	height: 112px;
+	top: 6.68rem;
+	left: -3.625rem;
+	padding: 0.875rem;
+}
+
+.header .right-card {
+	width: 135px;
+	height: 177px;
+	bottom: 6.5rem;
+	right: -3.2rem;
+	padding: 1.25rem 1.5rem;
+}
+
+.header .right-card-support {
+	padding: 0.063rem 0.625rem;
+	background-color: #00baff;
+	width: max-content;
+	border-radius: 0.375rem;
+	bottom: -0.5rem;
+	left: auto;
+	right: auto;
+}
+
+.header input {
+	border: 1px solid #613c33;
+	padding: 0.75rem 1.625rem;
+	color: #613c33;
+	max-width: 300px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+@media (max-width: 768px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	/* Header */
+
+	/*  */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	/* Header */
+	.header .underline-blue {
+		text-decoration: none;
+		position: relative;
+	}
+
+	.header .underline-blue:after {
+		position: absolute;
+		content: "";
+		height: 8px;
+		bottom: 11px;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		width: 100%;
+		background: #00baff;
+		z-index: -10;
+	}
+	/*  */
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
