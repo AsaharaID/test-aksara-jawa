@@ -22,17 +22,22 @@
 	align-items: center;
 	position: center;
 	text-align: center;
+    margin-bottom: 2rem;
 }
 
 .sidebar .menus .item.active a,
-.sidebar .menus .item:hover a{
-    color: #0C145A;
-    font-weight: 500;
+.sidebar .menus .item:hover a {
+	color: #613c33;
+	font-weight: 700;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	background-color: #fff;
+	padding: 10px;
 }
-
 .sidebar .menus .item a {
 	color: #fff;
 	font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .sidebar-footer .footer-card {

@@ -5,7 +5,7 @@ import MenuItem from "./menuItem";
 import Profile from "./profile";
 
 interface SidebarProps {
-    activeMenu: "Pengenalan"| "Latihan Aksara Jawa";
+	activeMenu: "Pengenalan" | "Latihan Aksara Jawa";
 }
 export default function SideBar(props: SidebarProps) {
 	const { activeMenu } = props;
@@ -20,7 +20,7 @@ export default function SideBar(props: SidebarProps) {
 						href="/PageContent/Pengenalan"
 					/>
 					<MenuItem
-						title="Latihan Aksara Jawa"
+						title="Latihan Aksara"
 						active={activeMenu === "Latihan Aksara Jawa"}
 						href="/PageContent/LatihanAksara"
 					/>
