@@ -58,6 +58,10 @@
 	color: #613c33;
 	max-width: 300px;
 }
+.header .img-fluid {
+	width: 100%;
+	height: auto;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {

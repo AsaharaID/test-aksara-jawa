@@ -242,6 +242,10 @@
 	margin-bottom: 0.875rem;
 }
 
+.mr-14 {
+	margin-right: 0.875rem;
+}
+
 /*  */
 
 /* Color Palette */
@@ -262,6 +266,10 @@
 }
 .color-palette-5 {
 	color: #613c33;
+}
+
+.color-palette-6 {
+	color: #FFFFFF;
 }
 
 /*  */

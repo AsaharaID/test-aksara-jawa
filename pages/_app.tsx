@@ -1,4 +1,9 @@
-/* eslint-disable @next/next/no-page-custom-font */
+/**
+ * /* eslint-disable @next/next/no-page-custom-font
+ *
+ * @format
+ */
+
 /**
  * /* eslint-disable @next/next/no-page-custom-font
  *
@@ -10,6 +15,8 @@
 
 import "../styles/homepage.css";
 import "../styles/utilities.css";
+import "../styles/sidebar.css";
+import "../styles/pengenalan.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
