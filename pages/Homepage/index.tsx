@@ -1,3 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
+/**
+ * /* eslint-disable @next/next/no-img-element
+ *
+ * @format
+ */
+
 /**
  * /* eslint-disable @next/next/no-img-element
  *
@@ -6,7 +13,7 @@
 
 /** @format */
 
-import Image from "next/image";
+import Link from "next/link";
 import Input from "../../Components/input";
 export default function MainBanner() {
 	return (
@@ -36,13 +43,14 @@ export default function MainBanner() {
 							<Input />
 						</div>
 						<div className="d-flex flex-lg-row flex-column gap-4">
-							<a
-								className="btn btn-get text-lg rounded-pill"
-								href="/PageContent/Pengenalan"
-								role="button"
-							>
-								Lanjutkan
-							</a>
+							<Link href="/PageContent/Pengenalan">
+								<a
+									className="btn btn-get text-lg rounded-pill"
+									role="button"
+								>
+									Lanjutkan
+								</a>
+							</Link>
 						</div>
 					</div>
 				</div>
