@@ -25,7 +25,6 @@ export default function SideBar(props: SidebarProps) {
 						href="/PageContent/LatihanAksara"
 					/>
 				</div>
-				<Footer />
 			</div>
 		</section>
 	);
