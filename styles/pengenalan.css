@@ -6,7 +6,7 @@
   padding-bottom: 10px;
 }
 
-.overview main.main-wrapper {
+main.main-wrapper {
 	margin-left: 340px;
 	height: 100%;
     width: 50%;
@@ -25,35 +25,28 @@
 	max-width: 600px;
 }
 
-.overview .latest-transaction .main-content-table {
+.main-content-table {
 	background-color: #ffffff;
 	padding: 1.25rem 1.875rem;
 	border-radius: 1rem;
 	max-width: 800px;
 }
 
-.overview .latest-transaction .game-title-header {
-	margin-top: 10px;
-	margin-bottom: 10px;
+.btn{
+	background-color: #613c33;
+	color: #fff;
+	padding: 0.75rem 3rem;
+	float: right;
+	display: block;
+	margin-right: 1rem;
+	margin-left: auto;
 }
 
-.overview .latest-transaction .game-title {
-	white-space: nowrap;
-	width: 135px;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-
-.overview .table > :not(caption) > * > * {
-	padding: 10px 0px;
-}
-
-.overview .latest-transaction table thead tr th {
-	font-weight: 400;
-}
-
-.overview .subtitle {
-	max-width: 900px;
+.btn:hover {
+	background-color: #360917;
+	color: #fff;
+	padding: 0.75rem 3rem;
+	float: right;
 }
 
 .img-fluid {

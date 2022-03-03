@@ -33,7 +33,7 @@ export default function Halaman2() {
 				</div>
 			</div>
 			<div className="d-flex flex-lg-row flex-column gap-4">
-				<Link href="/PageContent/LatihanAksara/HalamanLatihan/Halaman2">
+				<Link href="/PageContent/LatihanAksara/HalamanLatihan/Halaman3">
 					<a className="btn btn-get text-lg rounded-pill" role="button">
 						Lanjutkan
 					</a>

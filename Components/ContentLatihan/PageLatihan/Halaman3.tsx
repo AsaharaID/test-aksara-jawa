@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 /**
  * /* eslint-disable @next/next/no-img-element
  *
@@ -16,7 +15,7 @@
 import Link from "next/link";
 import React from "react";
 
-export default function ContentLatihan() {
+export default function Halaman3() {
 	return (
 		<main className="main-wrapper">
 			<div className="ps-lg-0">
@@ -29,16 +28,13 @@ export default function ContentLatihan() {
 						tangan.
 					</p>
 					<div className="main-content">
-						<img src="/image/pola/Ha.svg" className="img-fluid" alt="" />
+						<img src="/image/pola/Ca.svg" className="img-fluid" alt="" />
 					</div>
 				</div>
 			</div>
 			<div className="d-flex flex-lg-row flex-column gap-4">
 				<Link href="/PageContent/LatihanAksara/HalamanLatihan/Halaman2">
-					<a
-						className="btn btn-get text-lg rounded-pill"
-						role="button"
-					>
+					<a className="btn btn-get text-lg rounded-pill" role="button">
 						Lanjutkan
 					</a>
 				</Link>
