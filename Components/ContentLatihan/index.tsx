@@ -29,7 +29,7 @@ export default function ContentLatihan() {
 						tangan.
 					</p>
 					<div className="main-content">
-						<img src="/image/pola/Ha.svg" className="img-fluid" alt="" />
+						<img src="/image/Pola/Ha.svg" className="img-fluid" alt="" />
 					</div>
 				</div>
 			</div>

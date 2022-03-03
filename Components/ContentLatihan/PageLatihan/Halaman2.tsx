@@ -28,7 +28,7 @@ export default function Halaman2() {
 						tangan.
 					</p>
 					<div className="main-content">
-						<img src="/image/pola/Na.svg" className="img-fluid" alt="" />
+						<img src="/image/Pola/Na.svg" className="img-fluid" alt="" />
 					</div>
 				</div>
 			</div>
