@@ -9,16 +9,18 @@
 	line-height: 1.5;
 }
 
-.header .btn-get {
+.header .btn-home {
 	background-color: #613c33;
 	color: #fff;
 	padding: 0.75rem 3rem;
+	text-decoration: none;
 }
 
-.header .btn-get:hover {
+.header .btn-home:hover {
 	background-color: #360917;
 	color: #fff;
 	padding: 0.75rem 3rem;
+	text-decoration: none;
 }
 
 .header .card {
