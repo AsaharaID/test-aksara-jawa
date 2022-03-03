@@ -45,7 +45,7 @@ export default function MainBanner() {
 						<div className="d-flex flex-lg-row flex-column gap-4">
 							<Link href="/PageContent/Pengenalan">
 								<a
-									className="btn btn-get text-lg rounded-pill"
+									className="btn-home text-lg rounded-pill"
 									role="button"
 								>
 									Lanjutkan

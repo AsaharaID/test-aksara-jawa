@@ -49,6 +49,21 @@ main.main-wrapper {
 	float: right;
 }
 
+.btn-home{
+	background-color: #613c33;
+	color: #fff;
+	padding: 0.75rem 3rem;
+	text-decoration: none;
+}
+
+.btn-home:hover {
+	background-color: #360917;
+	color: #fff;
+	padding: 0.75rem 3rem;
+	float: right;
+}
+
+
 .img-fluid {
 	padding-left: 50px;
 	max-width: 600px;
