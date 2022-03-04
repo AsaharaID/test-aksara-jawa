@@ -15,7 +15,7 @@
 import Link from "next/link";
 import React from "react";
 
-export default function Halaman3() {
+export default function Halaman6() {
 	return (
 		<main className="main-wrapper">
 			<div className="ps-lg-0">
@@ -28,12 +28,12 @@ export default function Halaman3() {
 						tangan.
 					</p>
 					<div className="main-content">
-						<img src="/image/Pola/Ca.svg" className="img-fluid" alt="" />
+						<img src="/image/Pola/Da.svg" className="img-fluid" alt="" />
 					</div>
 				</div>
 			</div>
 			<div className="d-flex flex-lg-row flex-column gap-4">
-				<Link href="/PageContent/LatihanAksara/HalamanLatihan/Halaman4">
+				<Link href="/PageContent/LatihanAksara/HalamanLatihan/Halaman7">
 					<a className="btn btn-get text-lg rounded-pill" role="button">
 						Lanjutkan
 					</a>
