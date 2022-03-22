@@ -1,20 +1,20 @@
 /** @format */
 
 .overview {
-  padding: 20px;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+	padding: 20px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
 }
 
 main.main-wrapper {
 	margin-left: 340px;
 	height: 100%;
-    width: 50%;
+	width: 50%;
 	margin-right: auto;
 	position: relative;
 	padding: 50px 0px 30px 50px;
-    background-color: #f5f5f5;
-    border-radius: 50px;
+	background-color: #f5f5f5;
+	border-radius: 50px;
 }
 
 .overview main .main-content {
@@ -32,25 +32,62 @@ main.main-wrapper {
 	max-width: 800px;
 }
 
-.btn{
+.btn-pengenalan {
 	background-color: #613c33;
 	color: #fff;
 	padding: 0.75rem 3rem;
+	border: 3px solid #613c33;
 	float: right;
 	display: block;
 	margin-right: 1rem;
 	margin-left: auto;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
 }
 
-.btn:hover {
-	background-color: #360917;
+.btn-right {
+	background-color: #613c33;
 	color: #fff;
 	padding: 0.75rem 3rem;
+	border: 3px solid #613c33;
 	float: right;
+	display: inline-block;
+	margin-right: 1rem;
+	margin-left: auto;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
 }
 
+.btn-left {
+	background-color: #fff;
+	color: #613c33;
+	border: 3px solid #613c33;
+	padding: 0.75rem 3rem;
+	float: left;
+	display: inline-block;
+	text-decoration: none;
+	margin-right: auto;
+	margin-left: 1rem;
+	transition: all 0.3s ease-in-out;
+}
 
+.btn-left:hover {
+	background-color: #613c33;
+	color: #fff;
+	border: 3px solid #613c33;
+	padding: 0.75rem 3rem;
+	float: left;
+	text-decoration: solid;
+}
 
+.btn-right:hover {
+	background-color: #fff;
+	color: #360917;
+	border: 3px solid #613c33;
+	padding: 0.75rem 3rem;
+	float: right;
+	text-decoration: none;
+}
 
 .img-fluid {
 	padding-left: 50px;
@@ -72,5 +109,4 @@ main.main-wrapper {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	
 }

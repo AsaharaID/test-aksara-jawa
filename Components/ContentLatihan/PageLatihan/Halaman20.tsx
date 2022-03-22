@@ -32,9 +32,14 @@ export default function Halaman20() {
 					</div>
 				</div>
 			</div>
-			<div className="d-flex flex-lg-row flex-column gap-4">
-				<Link href="/PageContent/SoalTest">
-					<a className="btn btn-get text-lg rounded-pill" role="button">
+			<div className="button-nav">
+				<Link href="/PageContent/LatihanAksara/HalamanLatihan/Halaman19">
+					<a className="btn-left btn-get text-lg rounded-pill" role="button">
+						Kembali
+					</a>
+				</Link>
+				<Link href="/PageContent/SoalTest/">
+					<a className="btn-right btn-get text-lg rounded-pill" role="button">
 						Lanjutkan
 					</a>
 				</Link>

@@ -39,7 +39,7 @@ export default function ContentPengenalan() {
 				</div>
 				<div className="d-flex flex-lg-row flex-column gap-4">
 					<Link href="/PageContent/LatihanAksara">
-						<a className="btn btn-get text-lg rounded-pill" role="button">
+						<a className="btn-pengenalan btn-get text-lg rounded-pill" role="button">
 							Lanjutkan
 						</a>
 					</Link>

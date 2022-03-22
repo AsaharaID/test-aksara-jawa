@@ -32,9 +32,14 @@ export default function Halaman14() {
 					</div>
 				</div>
 			</div>
-			<div className="d-flex flex-lg-row flex-column gap-4">
+			<div className="button-nav">
+				<Link href="/PageContent/LatihanAksara/HalamanLatihan/Halaman13">
+					<a className="btn-left btn-get text-lg rounded-pill" role="button">
+						Kembali
+					</a>
+				</Link>
 				<Link href="/PageContent/LatihanAksara/HalamanLatihan/Halaman15">
-					<a className="btn btn-get text-lg rounded-pill" role="button">
+					<a className="btn-right btn-get text-lg rounded-pill" role="button">
 						Lanjutkan
 					</a>
 				</Link>

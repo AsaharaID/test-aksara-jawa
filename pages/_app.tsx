@@ -17,6 +17,7 @@ import "../styles/homepage.css";
 import "../styles/utilities.css";
 import "../styles/sidebar.css";
 import "../styles/pengenalan.css";
+import "../styles/drawer.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
